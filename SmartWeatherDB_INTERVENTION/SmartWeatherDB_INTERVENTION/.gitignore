@@ -1,0 +1,36 @@
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# qmake / moc / uic generated files
+Makefile
+Makefile.*
+.qmake.stash
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.moc
+
+# CMake (not used, but Qt Creator may create it)
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+cmake_install.cmake
+
+# Qt Creator user settings and caches
+*.user
+*.user.*
+.qtcreator/
+.qtc_clangd/
+
+# Compiled objects & binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.pdb
